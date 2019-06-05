@@ -1,0 +1,86 @@
+{
+  "className": "Test",
+  "args": [],
+  "code": "608060405234801561001057600080fd5b5060f28061001f6000396000f3fe60806040526004361060525763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630dbe671f811460575780638b84925b14607b578063ac58867514608d575b600080fd5b348015606257600080fd5b50606960b5565b60408051918252519081900360200190f35b348015608657600080fd5b50606960bb565b348015609857600080fd5b5060b36004803603602081101560ad57600080fd5b503560c1565b005b60005481565b60005490565b60005556fea165627a7a723058207b14d27ae837259f72e0ca3db8985db643077cdf45e879e9c707e78c9ef9f6890029",
+  "runtimeBytecode": "60806040526004361060525763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630dbe671f811460575780638b84925b14607b578063ac58867514608d575b600080fd5b348015606257600080fd5b50606960b5565b60408051918252519081900360200190f35b348015608657600080fd5b50606960bb565b348015609857600080fd5b5060b36004803603602081101560ad57600080fd5b503560c1565b005b60005481565b60005490565b60005556fea165627a7a723058207b14d27ae837259f72e0ca3db8985db643077cdf45e879e9c707e78c9ef9f6890029",
+  "realRuntimeBytecode": "60806040526004361060525763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416630dbe671f811460575780638b84925b14607b578063ac58867514608d575b600080fd5b348015606257600080fd5b50606960b5565b60408051918252519081900360200190f35b348015608657600080fd5b50606960bb565b348015609857600080fd5b5060b36004803603602081101560ad57600080fd5b503560c1565b005b60005481565b60005490565b60005556fea165627a7a72305820",
+  "linkReferences": {},
+  "swarmHash": "7b14d27ae837259f72e0ca3db8985db643077cdf45e879e9c707e78c9ef9f689",
+  "gasEstimates": {
+    "creation": {
+      "codeDepositCost": "48400",
+      "executionCost": "99",
+      "totalCost": "48499"
+    },
+    "external": {
+      "a()": "384",
+      "getInteger()": "406",
+      "setInteger(uint256)": "20219"
+    }
+  },
+  "functionHashes": {
+    "a()": "0dbe671f",
+    "getInteger()": "8b84925b",
+    "setInteger(uint256)": "ac588675"
+  },
+  "abiDefinition": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "a",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x0dbe671f"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getInteger",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x8b84925b"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "aa",
+          "type": "uint256"
+        }
+      ],
+      "name": "setInteger",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0xac588675"
+    }
+  ],
+  "filename": "C:\\Users\\Jagpreet\\Desktop\\SmartContractTest\\avengers\\.embark\\contracts\\Test.sol",
+  "originalFilename": "contracts\\Test.sol",
+  "path": "C:\\Users\\Jagpreet\\Desktop\\SmartContractTest\\avengers\\contracts\\Test.sol",
+  "gas": 124288,
+  "gasPrice": "20000000000",
+  "type": "file",
+  "deploy": true,
+  "_gasLimit": 6000000,
+  "error": false,
+  "deploymentAccount": "0x6F4c9F49b0b6AC6e8F166f05586Ec7c57AC504Fe",
+  "realArgs": [],
+  "deployedAddress": "0xD3A7639d475d109A8dda0e9BDE3Aa8a8551F8631",
+  "transactionHash": "0x4d0660b5426576160a2bbf45c8dbb611d2f4d38975c65c3b2e7929bf4ff91380"
+}
